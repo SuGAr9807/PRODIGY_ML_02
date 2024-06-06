@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 
 # Load the dataset
-data = pd.read_csv("D:\\Projects\\Krutva_Patel\\PRODIGY_ML_02\\Mall_Customers.csv")
+data = pd.read_csv("Mall_Customers.csv")
 
 # Drop unnecessary columns
 data.drop(["CustomerID", "Gender", "Age"], axis=1, inplace=True)
