@@ -19,7 +19,7 @@ from sklearn.cluster import KMeans
    The dataset containing customer information is loaded using Pandas read_csv function. The unnecessary columns, namely "CustomerID", "Gender", and "Age" are dropped.
 
 ```python
-data = pd.read_csv("D:\\Projects\\Krutva_Patel\\PRODIGY_ML_02\\Mall_Customers.csv")
+data = pd.read_csv("Mall_Customers.csv")
 data.drop(["CustomerID", "Gender", "Age"], axis=1, inplace=True)
 ```
 
